@@ -11,7 +11,6 @@ You can adjust the sensity by modify **mpu.setMotionDetectionThreshold** or **mp
 The Display shows Date & Time, Uptime (right-top) and Battery level.<br>
 <br>
 To be continued...<br>
-<br>
-Use the code for free
+
 
 
