@@ -1,4 +1,4 @@
-# TapClock
+# TapClock (v0.3)
 A WatchX Clock based on 
 * WatchX libs provided by ArgeX
   * Especially the MPU6050 lib and Demo Code from Korneliusz Jarzebski
