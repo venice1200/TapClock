@@ -6,7 +6,7 @@ A WatchX Clock based on
 * OLED Library SSD1306Ascii by Greiman
 
 The Display is shown after tapping or shaking the clock.<br>
-You can adjust the sensity by modify **mpu.setMotionDetectionThreshold** or **mpu.setMotionDetectionDuration** values<br>
+You can adjust the sensity by modify **mpu.setMotionDetectionThreshold** and/or **mpu.setMotionDetectionDuration** values<br>
 <br>
 The Display shows Date & Time, Uptime (right-top) and Battery level.<br>
 <br>
