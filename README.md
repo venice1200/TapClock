@@ -1,3 +1,7 @@
+# TapClock (v0.3)  
+* Fixed Uptime
+* fixed seconds
+
 # TapClock (v0.3)
 A WatchX Clock based on 
 * WatchX libs provided by ArgeX
