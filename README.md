@@ -11,10 +11,10 @@ You can adjust the sensity by modify **mpu.setMotionDetectionThreshold** and/or 
 <br>
 The Display shows Date & Time, Uptime (right-top) and Battery level.  
   
-v0.4.1  
+v0.4.1
 * Power saving using idle mode and disabling/enabling ADC  
   
-v0.5.1  
+v0.5.1
 * Changed MPU6050 library to I2CDEVLIB https://github.com/jrowberg/i2cdevlib 
   * You need **I2Cdev** and **MPU6050** from https://github.com/jrowberg/i2cdevlib/tree/master/Arduino 
 * Power saving using 32u4's "SLEEP_MODE_PWR_DOWN"  
