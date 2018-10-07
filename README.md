@@ -20,8 +20,8 @@ v0.5.1
 * Power saving using 32u4's "SLEEP_MODE_PWR_DOWN"  
   * Modified interrupt handling for 32u4 and MPU6050 (latched interrupt)  
 * Around 20-21hrs runtime
-* As of power saving "Uptime" shows realy 32u4 runtime instead of uptime.  
-  * After 20hrs running my "Uptime" shows a value of 3 minutes
+* As of power saving "Uptime" shows the real 32u4 runtime instead of timed uptime.  
+  * After 20hrs running my "Uptime" shows a value of 3 minutes :-)
 <br>
 <br>
 
