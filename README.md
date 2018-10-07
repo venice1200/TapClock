@@ -9,9 +9,8 @@ A WatchX Clock based on
 The Display is shown after tapping or shaking the clock.<br>
 You can adjust the sensity by modify **mpu.setMotionDetectionThreshold** and/or **mpu.setMotionDetectionDuration** values<br>
 <br>
-The Display shows Date & Time, Uptime (right-top) and Battery level.<br>
-<br>
-
+The Display shows Date & Time, Uptime (right-top) and Battery level.  
+  
 v0.4.1  
 * Power saving using idle mode and disabling/enabling ADC  
   
@@ -21,6 +20,8 @@ v0.5.1
 * Power saving using 32u4's "SLEEP_MODE_PWR_DOWN"  
   * Modified interrupt handling for 32u4 and MPU6050 (latched interrupt)  
 * Around 20-21hrs runtime
+* As of power saving "Uptime" shows realy 32u4 runtime instead of uptime.  
+  * After 20hrs running my "Uptime" shows a value of 3 minutes
 <br>
 <br>
 
