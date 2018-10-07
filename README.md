@@ -25,5 +25,4 @@ v0.5.1
   * After 20hrs running my "Uptime" shows a value of 3 minutes :-)
 <br>
 <br>
-
-Work in progress
+Work in progress...
