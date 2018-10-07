@@ -17,10 +17,11 @@ v0.4.1
 v0.5.1
 * Changed MPU6050 library to I2CDEVLIB https://github.com/jrowberg/i2cdevlib 
   * You need **I2Cdev** and **MPU6050** from https://github.com/jrowberg/i2cdevlib/tree/master/Arduino 
-* Power saving using 32u4's "SLEEP_MODE_PWR_DOWN"  
-  * Modified interrupt handling for 32u4 and MPU6050 (latched interrupt)  
+  * You need to remove the original MPU library
+* Power saving using now 32u4's "SLEEP_MODE_PWR_DOWN". From my knowledge the highest power saving mode.
+  * Modified interrupt handling needed for 32u4 and MPU6050 (latched interrupt)  
 * Around 20-21hrs runtime
-* As of power saving "Uptime" shows the real 32u4 runtime instead of timed uptime.  
+  * As of power saving "Uptime" shows the real 32u4 runtime instead of timed uptime.  
   * After 20hrs running my "Uptime" shows a value of 3 minutes :-)
 <br>
 <br>
