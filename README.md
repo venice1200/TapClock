@@ -23,6 +23,12 @@ v0.5.1
 * Around 20-21hrs runtime
   * As of power saving "Uptime" shows now the **real 32u4 runtime** instead of timed uptime.  
   * After 20hrs running my "Uptime" shows a value of 3 minutes :-)
+v0.5.2
+* Added USB Power detection  
+* The Clock stays active if Usb Power if connected and don't go to sleep
+* The Clock is no longer set back to compile time on a reset  
+* Charging is shown as a glowing right LED  
+
 <br>
 <br>
 Work in progress...
