@@ -22,7 +22,8 @@ v0.5.1
   * Modified interrupt handling needed for 32u4 and MPU6050 (latched interrupt)  
 * Around 20-21hrs runtime
   * As of power saving "Uptime" shows now the **real 32u4 runtime** instead of timed uptime.  
-  * After 20hrs running my "Uptime" shows a value of 3 minutes :-)
+  * After 20hrs running my "Uptime" shows a value of 3 minutes :-)  
+  
 v0.5.2
 * Added USB Power detection  
 * The Clock stays active if Usb Power if connected and don't go to sleep
