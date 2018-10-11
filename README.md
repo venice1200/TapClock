@@ -26,9 +26,9 @@ v0.5.1
   
 v0.5.2
 * Added USB Power detection  
+* Charging is shown as a glowing right LED if the watch is "shaked or tapped on"  
 * The Clock stays active if Usb Power if connected and don't go to sleep
-* The Clock is no longer set back to compile time on a reset  
-* Charging is shown as a glowing right LED  
+* As long as the RTC has power the Clock is no longer set back to compile time on a device reset or upload  
 
 <br>
 <br>
