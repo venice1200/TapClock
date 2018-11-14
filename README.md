@@ -29,7 +29,11 @@ v0.5.2
 * Charging is shown as a glowing right LED if the watch is "shaked or tapped on"  
 * The Clock stays active if Usb Power if connected and don't go to sleep
 * As long as the RTC has power the Clock is no longer set back to compile time on a device reset or upload  
-
+  
+v0.5.5
+* Sketch needs MPU calibated value which you can create with the IMU_Zero Sketch from the i2cdevlib/mpu6050 lib
+  
+  
 <br>
 <br>
 Work in progress...
