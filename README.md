@@ -31,7 +31,7 @@ v0.5.2
 * As long as the RTC has power the Clock is no longer set back to compile time on a device reset or upload  
   
 v0.5.5
-* Sketch needs MPU calibated value which you can create with the IMU_Zero Sketch from the i2cdevlib/mpu6050 lib
+* Sketch needs MPU calibated values which you can create with the IMU_Zero Sketch from the i2cdevlib/mpu6050 lib
   
   
 <br>
