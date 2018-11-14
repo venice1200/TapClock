@@ -31,8 +31,8 @@ v0.5.2
 * As long as the RTC has power the Clock is no longer set back to compile time on a device reset or upload  
   
 v0.5.5
-* Sketch needs MPU calibated values which you can create with the IMU_Zero Sketch from the i2cdevlib/mpu6050 lib
-  
+* Sketch needs MPU calibated values which you can create with the WatchX_IMU_Zero_0x69.ino from i2cdevlib/mpu6050 library
+* After wakeing up you need to move the clock to two positions defined by angle min/max values inside the sketch before the clock is show.
   
 <br>
 <br>
