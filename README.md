@@ -52,7 +52,6 @@ v0.5.1
 v0.4.1  
 * Power saving using idle mode and disabling/enabling ADC  
   
-<br>
 Credits  
 A WatchX Clock based on WatchX Hardware and  
 * WatchX libs provided by ArgeX, especially the MPU6050 lib and Demo Code from Korneliusz Jarzebski  
