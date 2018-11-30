@@ -49,7 +49,7 @@ v0.5.1
   * As of power saving "Uptime" shows now the **real 32u4 runtime** instead of timed uptime.  
   * After 20hrs running my "Uptime" shows a value of 3 minutes :-)  
   
-v0.4.1
+v0.4.1  
 * Power saving using idle mode and disabling/enabling ADC  
   
 <br>
