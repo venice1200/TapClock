@@ -55,10 +55,10 @@ v0.4.1
 <br>
 Credits  
 A WatchX Clock based on WatchX Hardware and  
-* WatchX libs provided by ArgeX, especially the MPU6050 lib and Demo Code from Korneliusz Jarzebski
-* OLED Library SSD1306Ascii by Greiman
-* i2cdevlib/mpu6050 by jrowberg
-* BasicWatch v1 from kghunt
-* WatchX by Hackeitos
-* Interrupt and Power Save Information by Nick Gammon
-* Arduino 1.8.5
+* WatchX libs provided by ArgeX, especially the MPU6050 lib and Demo Code from Korneliusz Jarzebski  
+* OLED Library SSD1306Ascii by Greiman  
+* i2cdevlib/mpu6050 by jrowberg  
+* BasicWatch v1 from kghunt  
+* WatchX by Hackeitos  
+* Interrupt and Power Save Information by Nick Gammon  
+* Arduino 1.8.5  
