@@ -9,7 +9,8 @@ You can adjust the sensity by modify **mpu.setMotionDetectionThreshold** and/or 
 Definitions: ULB = Upper Left Button (USB Side), URB/LRB = Upper/Lower Right Button  
   
 v0.5.7  
-Sketch needs MPU calibrating values which you can create with the WatchX_IMU_Zero_0x69.ino sketch. Use the uploaded version fromthe Repo.  
+Sketch needs MPU calibrating values which you can create with the WatchX_IMU_Zero_0x69.ino sketch.  
+Use the uploaded version from the Repo.  
   
 Time setting Menu
 * If clock is shown ULB opens the Menu for setting the time.
@@ -18,9 +19,9 @@ Time setting Menu
   * Select Exit or Save and confirm with ULB to Save the time values to the RTC or Exit without saving
   
 Stats Site
-* If clock is shown URB opens the Stats Window showing
+* If clock is shown URB opens the Stats Window showing..
   * Uptime after Reset/Restart in hrs:min (if RTC time is set correctly)
-  * Wakes and Shows to show how often the clock is woken up with/without showing the clock
+  * Wakes and Shows to show how often the clock is woken up with/without showing time
   * Angle values (+/-90°) calculated from Accelerometer (see sketch for details), calibration needed for correct values
   * Exit with ULB
   
@@ -49,11 +50,11 @@ v0.4.1
 * Power saving using idle mode and disabling/enabling ADC  
   
 Credits  
-A WatchX Clock based on WatchX Hardware and  
-* WatchX libs provided by ArgeX, especially the MPU6050 lib and Demo Code from Korneliusz Jarzebski  
-* OLED Library SSD1306Ascii by Greiman  
-* i2cdevlib/mpu6050 by jrowberg  
-* BasicWatch v1 from kghunt  
-* WatchX by Hackeitos  
-* Interrupt and Power Save Information by Nick Gammon  
-* Arduino 1.8.5  
+A WatchX Clock based on WatchX Hardware and
+* WatchX libs provided by ArgeX, especially the MPU6050 lib and Demo Code from Korneliusz Jarzebski
+* OLED Library SSD1306Ascii by Greiman
+* i2cdevlib/mpu6050 by jrowberg
+* BasicWatch v1 from kghunt
+* WatchX by Hackeitos
+* Interrupt and Power Save Information by Nick Gammon
+* Arduino 1.8.5
