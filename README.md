@@ -9,21 +9,20 @@ You can adjust the sensity by modify **mpu.setMotionDetectionThreshold** and/or 
 Definitions: ULB = Upper Left Button (USB Side), URB/LRB = Upper/Lower Right Button  
   
 v0.5.7  
-Sketch needs MPU calibrating values which you can create with the WatchX_IMU_Zero_0x69.ino sketch. Use the uploaded version.  
+Sketch needs MPU calibrating values which you can create with the WatchX_IMU_Zero_0x69.ino sketch. Use the uploaded version fromthe Repo.  
   
-Menu/Stats
-* Time setting Menu
-  * If clock is shown ULB opens the Menu for setting the time.
-   * URB and LRB Button move the ">" Cursor Up and Down (Rotating Cursor)
-   * Pick a value to modify with ULB, the Menu Entry will be inverted and values can be changed with ULB/LRB, confirm with ULB
-   * Select Exit or Save and confirm with ULB to Save the time values to the RTC or Exit without saving
+Time setting Menu
+* If clock is shown ULB opens the Menu for setting the time.
+  * URB and LRB Button move the ">" Cursor Up and Down (Rotating Cursor)
+  * Pick a value to modify with ULB, the Menu Entry will be inverted and values can be changed with URB/LRB, confirm with ULB
+  * Select Exit or Save and confirm with ULB to Save the time values to the RTC or Exit without saving
   
-* Stats Site
-  * If clock is shown URB opens the Stats Window showing
-   * Uptime after Reset/Restart in hrs:min (if RTC time is set correctly)
-   * Wakes and Shows to show how often the clock is woken up with/without showing the clock
-   * Angle values (+/-90°) calculated from Accelerometer (see sketch for details), calibration needed for correct values
-   * Exit with ULB
+Stats Site
+* If clock is shown URB opens the Stats Window showing
+  * Uptime after Reset/Restart in hrs:min (if RTC time is set correctly)
+  * Wakes and Shows to show how often the clock is woken up with/without showing the clock
+  * Angle values (+/-90°) calculated from Accelerometer (see sketch for details), calibration needed for correct values
+  * Exit with ULB
   
 v0.5.5
 * Sketch needs MPU calibating values which you can create with the WatchX_IMU_Zero_0x69.ino from i2cdevlib/mpu6050 library
