@@ -5,14 +5,12 @@ The Display shows Date & Time, Battery level. Additional Values see releases.
 
 The Display is shown after tapping or shaking the clock.<br>
 You can adjust the sensity by modify **mpu.setMotionDetectionThreshold** and/or **mpu.setMotionDetectionDuration** values<br>
-Starting with v0.5.5 you have to define two watch positions (in the sketch) to show the clock. Therefore you need<br>
-to calibrate your MPU with the WatchX_IMU_Zero_0x69.ino sketch from i2cdevlib/mpu6050 library or the uploaded version.<br>
 <br>
   
 Definitions: ULB = Upper Left Button (USB Side), URB/LRB = Upper/Lower Right Button<br>
   
 v0.5.7  
-Sketch needs MPU calibating values which you can create with the WatchX_IMU_Zero_0x69.ino sketch.  
+Sketch needs MPU calibrating values which you can create with the WatchX_IMU_Zero_0x69.ino sketch. Use the uploaded version.  
   
 Menu/Stats
 * Time setting Menu
