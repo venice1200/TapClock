@@ -1,13 +1,12 @@
 # TapClock
-Credits see end of Readme
+**Credits see end of Readme**
 
 The Display shows Date & Time, Battery level. Additional Values see releases.  
-
-The Display is shown after tapping or shaking the clock.<br>
-You can adjust the sensity by modify **mpu.setMotionDetectionThreshold** and/or **mpu.setMotionDetectionDuration** values<br>
-<br>
   
-Definitions: ULB = Upper Left Button (USB Side), URB/LRB = Upper/Lower Right Button<br>
+The Display is shown after tapping or shaking the clock.  
+You can adjust the sensity by modify **mpu.setMotionDetectionThreshold** and/or **mpu.setMotionDetectionDuration** values.  
+    
+Definitions: ULB = Upper Left Button (USB Side), URB/LRB = Upper/Lower Right Button  
   
 v0.5.7  
 Sketch needs MPU calibrating values which you can create with the WatchX_IMU_Zero_0x69.ino sketch. Use the uploaded version.  
@@ -23,7 +22,7 @@ Menu/Stats
   * If clock is shown URB opens the Stats Window showing
    * Uptime after Reset/Restart in hrs:min (if RTC time is set correctly)
    * Wakes and Shows to show how often the clock is woken up with/without showing the clock
-   * Angle values calculated from Accelerometer (see sketch for details), calibration needed for correct values
+   * Angle values (+/-90°) calculated from Accelerometer (see sketch for details), calibration needed for correct values
    * Exit with ULB
   
 v0.5.5
