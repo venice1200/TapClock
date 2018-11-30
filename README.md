@@ -11,7 +11,7 @@ to calibrate your MPU with the WatchX_IMU_Zero_0x69.ino sketch from i2cdevlib/mp
   
 Definitions: ULB = Upper Left Button (USB Side), URB/LRB = Upper/Lower Right Button<br>
   
-v0.5.7
+v0.5.7  
 Sketch needs MPU calibating values which you can create with the WatchX_IMU_Zero_0x69.ino sketch.  
   
 Menu/Stats
