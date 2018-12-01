@@ -34,15 +34,6 @@ Search Setup for:
 
 To get proper Angle values from the MPU you need to calibrate your MPU.  
 See "Calibration" below for more details.  
-Search Setup for the following section and replace my values with your own calibration values:
-
-    // Offsets got from IMU_Zero Sketch
-    mpu.setXAccelOffset(106);
-    mpu.setYAccelOffset(-397);
-    mpu.setZAccelOffset(1255);
-    mpu.setXGyroOffset(68);
-    mpu.setYGyroOffset(-9);
-    mpu.setZGyroOffset(29);
 
 To show the time the system needs to be woken up.
 After this the clock must be moved to two positions configured in the sketch to show the time (maybe i have to changed this).
@@ -86,12 +77,13 @@ Stats Site
   * Exit with ULB
 
 Calibration  
-You need to copy the calibration values out of the serial window of the calibration sketch (available in this Repo)
-into the TapClock sketch and replace my values with yours as each MPU is different.
+Run the calibration sketch available in the Repo.  
+Copy the calibration values out of the serial window of the calibration sketch into the TapClock sketch  
+and replace my values with yours as each MPU is different.
 
 See the screeshot here which values are needed: https://i.imgur.com/FOmkXfg.png  
 You have to choose one of the calibration values for each section.  
-
+  
 Replace the values for:
 
     // Offsets got from IMU_Zero Sketch
@@ -101,13 +93,13 @@ Replace the values for:
       mpu.setXGyroOffset(68);
       mpu.setYGyroOffset(-9);
       mpu.setZGyroOffset(29);
-
-After you have replaced my calibration values in the sketch and uploaded it the Stats Screen
-show nearly 0 at each axe if the WatchX lies on a flat and horizontal surface.
+  
+After you have replaced my calibration values in the sketch and uploaded it the Stats Screen  
+show nearly 0 at each axe if the WatchX lies on a flat and horizontal surface.  
 See https://i.imgur.com/mNhEpCd.jpg
-
-See the sketch header as there are some more infos
-like heating up the MPU for 10 Minutes before you run the calibrating sketch
+  
+See the sketch header as there are some more infos  
+like heating up the MPU for 10 Minutes before you run the calibrating sketch  
 and use a flat and horizontal surface for calibration.  
   
 Compiling
@@ -117,8 +109,8 @@ Compiling
 Cover  
 The cover is Transparent PLA sprayed with Tamiya Color Spray.  
 Inspired by the Odroid-Go community on Reddit.  
-
-Credits
+  
+Credits  
 A WatchX Clock Sketch based on WatchX Hardware and:
 * WatchX libs provided by ArgeX, especially the MPU6050 lib and Demo Code from Korneliusz Jarzebski
 * OLED Library SSD1306Ascii by Greiman
@@ -128,7 +120,7 @@ A WatchX Clock Sketch based on WatchX Hardware and:
 * Interrupt and Power Save Mode Information by Nick Gammon
 * Arduino 1.8.5
 * The WatchX Reddit Community
-
-Cheers
-
+  
+Cheers  
+  
 P.S. Still working on Dokumentation
