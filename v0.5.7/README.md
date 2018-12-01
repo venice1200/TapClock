@@ -13,7 +13,7 @@ Libraries
 * SSD1306Ascii, OLED library, search for “greiman/SSD1306Ascii” at Github
 
 Upload
-* If TapClock runs you can upload code to the MCU only if the clock is awaken, so shake it :slight_smile:
+* If TapClock runs you can upload code to the MCU only if the clock is awaken, so shake it :-)
 
 Hints
 * The Sketch needs MPU calibrating values which you can create with the WatchX_IMU_Zero_0x69.ino sketch avalible at my Github Repo.
@@ -32,8 +32,9 @@ Search Setup for:
     mpu.setMotionDetectionThreshold(80); //80 
     mpu.setMotionDetectionDuration(4); //4
 
-To get proper Angle values from the MPU you need to calibrate your MPU.
-Search Setup for the below section and replace my values with your own calibration values:
+To get proper Angle values from the MPU you need to calibrate your MPU.  
+See "Calibration" below for more details.  
+Search Setup for the following section and replace my values with your own calibration values:
 
     // Offsets got from IMU_Zero Sketch
     mpu.setXAccelOffset(106);
@@ -84,6 +85,31 @@ Stats Site
   * Angle values (+/-90°) calculated from Accelerometer (see sketch for details), calibration (!!) needed for correct values
   * Exit with ULB
 
+Calibration  
+You need to copy the calibration values out of the serial window of the calibration sketch (available in this Repo)
+into the TapClock sketch and replace my values with yours as each MPU is different.
+
+See the screeshot here which values are needed: https://i.imgur.com/FOmkXfg.png  
+You have to choose one of the calibration values for each section.  
+
+Replace the values for:
+
+    // Offsets got from IMU_Zero Sketch
+      mpu.setXAccelOffset(106);
+      mpu.setYAccelOffset(-397);
+      mpu.setZAccelOffset(1255);
+      mpu.setXGyroOffset(68);
+      mpu.setYGyroOffset(-9);
+      mpu.setZGyroOffset(29);
+
+After you have replaced my calibration values in the sketch and uploaded it the Stats Screen
+show nearly 0 at each axe if the WatchX lies on a flat and horizontal surface.
+See https://i.imgur.com/mNhEpCd.jpg
+
+See the sketch header as there are some more infos
+like heating up the MPU for 10 Minutes before you run the calibrating sketch
+and use a flat and horizontal surface for calibration.  
+  
 Compiling
 * Sketch 21194 Bytes (73%)
 * Global Variables 775 Bytes (30%)
