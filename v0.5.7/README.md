@@ -82,15 +82,12 @@ Stats Site
   * Exit with ULB
 
 Compiling
-
-    Sketch 21194 Bytes (73%)
-    Global Variables 775 Bytes (30%)
-
-See also the Readme on Github.
-
-Cover
-The cover is Transparent PLA Painted with Tamiya Color Spray.
-Inspired by the Odroid-Go community on Reddit.
+* Sketch 21194 Bytes (73%)
+* Global Variables 775 Bytes (30%)
+  
+Cover  
+The cover is Transparent PLA sprayed with Tamiya Color Spray.  
+Inspired by the Odroid-Go community on Reddit.  
 
 Credits
 A WatchX Clock Sketch based on WatchX Hardware and:
