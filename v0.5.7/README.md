@@ -1,6 +1,9 @@
-Readme for TapClock v0.5.7
+**Readme for TapClock v0.5.7**
 
-Definitions: ULB = Upper Left Button (USB Side), URB/LRB = Upper/Lower Right Button
+Definitions: 
+* ULB = Upper Left Button (USB Side)
+* URB = Upper Right Button
+* LRB = Lower Right Button
 
 Libraries
 * I2CDEVLIB including an MPU6050 library, search for “jrowberg/i2cdevlib” at Github
