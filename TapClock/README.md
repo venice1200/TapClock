@@ -8,10 +8,12 @@ Usage
 The Menu contains two new values
 * Watchface: 1=Normal Watchface, 2=Wordclock Watchface
 * Wakeup: will come with v0.6.1
-
+  
 Gestures  
-If your MPU is properly calibrated you can move the Menu Cursor up and down and  
+If your MPU is properly calibrated you can move the Setup Menu Cursor up and down and  
 change values +/- rotating WatchX forwards and backwards.  
+I save the current values of the actual WatchX Position when the menu is opened
+and use the stored values with offsets to modify the cursor or the menu values.
   
    
 **Readme for TapClock v0.5.7**
