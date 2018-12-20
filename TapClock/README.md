@@ -1,3 +1,19 @@
+**Readme for TapClock v0.6.0**  
+  
+All Libraries v0.5.7 are also needes for v0.6.0 and  
+* PinChange Interrupt library, search for "NicoHood" at GitHub  
+  
+All Infos for v0.5.7 are valid for v0.6.0 and  
+Usage  
+The Menu contains two new values
+* Watchface: 1=Normal Watchface, 2=Wordclock Watchface
+* Wakeup: will come with v0.6.1
+
+Gestures  
+If your MPU is properly calibrated you can move the Menu Cursor up and down and  
+change values +/- rotating WatchX forwards and backwards.  
+  
+   
 **Readme for TapClock v0.5.7**
 
 Definitions: 
