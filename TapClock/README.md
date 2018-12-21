@@ -1,21 +1,26 @@
+**Readme for TapClock v0.6.1**  
+All Infos for v0.6.0 are valid for v0.6.1 and:  
+Wakeup Mode added to Setup.  
+Wakeup Mode 1: MPU based Wakeup (Standard).  
+Wakeup Mode 2: LRB Button based Wakeup, like WordClock.  
+If Wakeup Mode 2 is chosen the MPU is send to sleep, good for the battery. 
+
 **Readme for TapClock v0.6.0**  
-  
 All Libraries v0.5.7 are also needed for v0.6.0 and  
 * PinChange Interrupt library, search for "NicoHood" at GitHub  
   
 All Infos for v0.5.7 are valid for v0.6.0 and:  
 Usage  
 The Menu contains two new values
-* Watchface: 1=TapClock Watchface, 2=WordClock Watchface
+* Watchface: 1=TapClock Watchface (Standard), 2=WordClock Watchface
 * Wakeup: will come with v0.6.1
   
 Gestures  
-If your MPU is properly calibrated you can move the Setup Menu Cursor up and down and  
-change values +/- rotating WatchX forwards and backwards.  
-I save the current values of the actual WatchX Position when the menu is opened
-and use the stored values with offsets to modify the cursor or the menu values.
+If your MPU is properly calibrated you can move the Setup Menu Cursor up and down  
+and change values +/- by rotating your Arm/WatchX forwards and backwards.  
+I save the current x/y/z values of the WatchX Position when the menu is opened  
+and use these values with offsets to modify the cursor or the menu values.
   
-   
 **Readme for TapClock v0.5.7**
 
 Definitions: 
@@ -37,9 +42,9 @@ Hints
 * The Sketch needs MPU calibrating values which you can create with the WatchX_IMU_Zero_0x69.ino sketch avalible at my Github Repo.
 
 Usage  
-If WatchX is connected to USB Power the System will never go to sleep if it’s awaken.  
+If WatchX is connected to USB Power the System will never go to sleep if it’s "on".  
 You can wait until the display is powerred off and then connect USB Power for charging without “display on”.  
-Charging is shown through an glowing right side Led.  
+Charging is shown with an glowing Right Led.  
 If WatchX is on Battery, the system waits for 5 secs (const long clocktime = 5000;) then send the MCU into “SLEEP_MODE_PWR_DOWN”.  
 The Interrupt from the MPU is configurred for waking the MCU on shaking or tapping.  
 The motion values for shaking or tapping are actually fixed in sketch.  
@@ -54,7 +59,7 @@ To get proper Angle values from the MPU you need to calibrate your MPU.
 See "Calibration" below for more details.  
 
 To show the time the system needs to be woken up.
-After this the clock must be moved to two positions configured in the sketch to show the time (maybe i have to changed this).
+After this the clock must be moved to two positions configured in the sketch to show the time (maybe i have to change this).
 Search for:
 
     // Clockpos/Waitpos
@@ -72,20 +77,20 @@ Search for:
     const float zwaitposmax = 90;
 
 How to get the time shown:
-* Wake up the system by shaking watch
-* Rotate watch to the first position (clockface can’t be seen)
-* Rotate watch tp the second position (clockface can be seen)
+* Wake up the system by shaking the WatchX
+* Rotate Arm/WatcX forward to the first position (clockface can’t be seen)
+* Rotate Arm/WatcX backward to the second position (clockface can be seen)
 
 Now the time should be shown.
-If you don’t do this within the clocktime the system goes back to sleep.
+If you don’t do this within the "Clocktime" the system goes back to sleep.
 
 The Stats Menu can be used to show the needed angle values.
 
-Time Menu
+Setup Menu (Time Menu)
 * If Clock is shown ULB opens the Menu for setting the time.
-* URB and LRB Button move the “>” Cursor Up and Down (Rotating Cursor)
-* Pick a value to modify with ULB, the Menu Entry will be inverted and values can be changed with URB/LRB, confirm with ULB
-* Select Exit or Save and confirm with ULB to Save the time values to the RTC or Exit without saving
+* URB and LRB Button moving the “>” Cursor Up and Down (Rotating Cursor)
+* Pick a value to modify with ULB, the Menu Entry will be inverted and values can be changed with URB/LRB, confirm change with ULB
+* Select Exit or Save and confirm with ULB to Save the changed values to the WatchX or Exit without saving
 
 Stats Site
 * If Clock is shown URB opens the Stats Window showing…
@@ -100,7 +105,7 @@ Copy the calibration values out of the serial window of the calibration sketch i
 and replace my values with yours as each MPU is different.
 
 See the screeshot here which values are needed: https://i.imgur.com/FOmkXfg.png  
-You have to choose one of the calibration values for each section.  
+You have to choose one of the calibration values from each section.  
   
 Replace the values for:
 
@@ -116,13 +121,13 @@ After you have replaced my calibration values in the sketch and uploaded it the 
 show nearly 0 at each axe if the WatchX lies on a flat and horizontal surface.  
 See https://i.imgur.com/mNhEpCd.jpg
   
-See the sketch header as there are some more infos  
+See the calibration sketch header as there are some more infos  
 like heating up the MPU for 10 Minutes before you run the calibrating sketch  
 and use a flat and horizontal surface for calibration.  
   
 Compiling
-* Sketch 21194 Bytes (73%)
-* Global Variables 775 Bytes (30%)
+* Sketch: v0.5.7: 73%, v0.6.1: 87%
+* Global Variables: v0.5.7: 30%, v0.6.1: 42%
   
 Cover  
 The cover is Transparent PLA sprayed with Tamiya Color Spray.  
@@ -136,6 +141,7 @@ A WatchX Clock Sketch based on WatchX Hardware and:
 * BasicWatch v1 from kghunt
 * WatchX by Hackeitos
 * Interrupt and Power Save Mode Information by Nick Gammon
+* PinChange Interrupt library by Nico Hood
 * Arduino 1.8.5
 * The WatchX Reddit Community
   
