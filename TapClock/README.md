@@ -1,3 +1,8 @@
+**Readme for TapClock v0.6.3 / v0.6.2 (testing)**  
+All Infos for v0.6.1 are valid for v0.6.3 and:  
+Using the new Font "Clock5x7.h" (see fonts readme)  
+Watchface 3 BlockClock
+
 **Readme for TapClock v0.6.1**  
 All Infos for v0.6.0 are valid for v0.6.1 and:  
 Wakeup Mode added to Setup.  
