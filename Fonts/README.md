@@ -4,6 +4,7 @@ new Symbols for an BlockClock Watchface and an Bell Symbol which looks like an R
 
 See https://i.imgur.com/vHU6aPZ.jpg  
 Changes on "System5x7" can be reverted by the original file if you use the new Font file.  
+  
 You have two possibities to add the font to the sketch:
 * Add the font to the SSD1306ASCii Library and add the line #include "Clock5x7.h" to the library file "allFonts.h" to cover the font. The font must be part of the SSD1306ASCii Library file and folder structure.
 * Add the font to this (or your sketch) by added an #include "Clock5x7.h" and make the file "Clock5x7.h" available through the libraries or sketch folders.  I keep it in the libraries\SSDFonts folder to use it more than once.
