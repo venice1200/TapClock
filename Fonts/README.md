@@ -1,4 +1,8 @@
 **2018-12-23**  
+Clock5x7.h v0.2  
+Added two new Characters for the BlockFont Number Zero  
+  
+**2018-12-23**  
 Created a new font "Clock5x7.h" which includes all symbols from the changed "System5x7" font,  
 new Symbols for an BlockClock Watchface and an Bell Symbol which looks like an Rocket.  
 
