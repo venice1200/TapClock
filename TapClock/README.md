@@ -1,3 +1,19 @@
+**Readme for TapClock v0.6.4** (Happy new Year Edition)
+All Infos for v0.6.3 are valid for v0.6.4 and:  
+* Include "Clock5x7.h" Font file through the sketch or library System instead of modifying the SSD1306ASCii library.  
+See HowTo here https://community.watchx.io/t/font-for-greiman-library-with-battery-symbols/150/4  
+* EEPROM reading and writing of Setup Parameter  
+If the EEPROM System was never used it will preset'ed during Setup()  
+EEPROM stores Clocktime (40), Watchface (1), Wakeup Mode (1) and Contrast (20), defaults in brackets  
+Only changed Setup Values are stored to EEPROM  
+* Faster changing of Setup Values by holding the buttons pressed for more than 1500ms  
+* Reset Uptime and Counter in Stats with URB  
+* Re-Write Setup Menu Rotation  
+* Some cosmetics
+  
+And see the release notes inside the sketch
+
+
 **Readme for TapClock v0.6.3 / v0.6.2 (testing)**  
 All Infos for v0.6.1 are valid for v0.6.3 and:  
 Using the new Font "Clock5x7.h" (see fonts readme)  
