@@ -5,13 +5,14 @@
   Checking
   -Oled, if you don't see anything there is something wrong with the OLED
   -Bluetooth Module, you should see two OK's. The first is for the Init, the second for an Factory Reset
-  -i2c device scanner for NAG/RTC/MPU/BMP
+  -i2c device scanner for MAG/RTC/MPU/BMP
   -LEDs
   -Buzzer
   -Buttons
-
+  
+  The Bluetooth Module is checked in "setup()".
   The Buzzer beeps at the end of the i2c scan and shows the result.
-  If a Button is pressed the Oled show a short Text and the Buzzer do one beep.
+  If a Button is pressed the Oled shows a short Text and the Buzzer do one beep.
   The LEDs blinking all the time.
 
   i2c Devices on WatchX
