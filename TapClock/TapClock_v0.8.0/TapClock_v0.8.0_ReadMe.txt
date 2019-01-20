@@ -94,7 +94,7 @@ The Setup List contains the following:
               4: and Date or / Once a Day in Month
               5: and Day of Week / Once a Day in Week
 * Clocktime *100ms This is the Time where the Clock is shown
-* WakeupMode 0: MPU WakeUp (Shake), 1: Button Wakeup (Left Lower Button)
+* WakeupMode 0: MPU WakeUp (Shake), 1: Button Wakeup (Right Lower Button)
 * Contrast *10 = OLED's Contrast Value
 
 You can scroll through the Menu List with the Buttons on the Right Side.
