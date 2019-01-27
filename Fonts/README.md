@@ -1,3 +1,7 @@
+**2019-01-27**  
+Clock5x7.h v0.3  
+Added new Characters for/from TapClock 0.8.4
+  
 **2018-12-23**  
 Clock5x7.h v0.2  
 Added two new Characters for the BlockFont Number Zero  
