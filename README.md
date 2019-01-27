@@ -1,5 +1,5 @@
 # TapClock
-TapClock is a simple Arduino based sketch for the WatchX Hardware from ArgeX.  
+TapClock is a simple Arduino based sketch for the watchX Hardware from ArgeX.  
 See the README's in the release folder for more details.
 
 Other information channels are:
