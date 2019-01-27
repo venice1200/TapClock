@@ -196,7 +196,7 @@
              "AlarmOn" prevents the system from send to sleep, "State 50" not set.
              New: isAlarmDay 
 
-    v0.8.2 (Testing)
+    v0.8.2 (Released)
     Added:   Wakeup via Button is permanently active
     Change:  Button and MPU Interrupt handling separated
     Change:  Rename and Re-Programm some Setup Value-Names
@@ -208,7 +208,7 @@
     Deleted: Removed a lot "cosmetic" stuff to get free space (oled.print's/intro shorted/variables modified)
     Added:   Master Alarm (all RTC & Battery Alarms)
     
-    v0.8.4 (Testing)
+    v0.8.4 (Released)
     Added:   Icon for MPU/Shake Active
 
     
