@@ -1,3 +1,4 @@
+![](https://img.shields.io/github/license/venice1200/TapClock.svg?style=flat)  
 <p align="center">
   <a href="http://watchx.io/"> 
     <img src="./Pictures/TapClock_for_watchX_logo.png" alt="watchX"> 
@@ -11,6 +12,4 @@ Other information channels are:
 * Reddit https://www.reddit.com/r/watchX/
 * WatchX Community https://community.watchx.io
 
-Cheers  
-  
-![](https://img.shields.io/github/license/venice1200/TapClock.svg?style=flat)  
+Cheers
