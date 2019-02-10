@@ -1,0 +1,33 @@
+TapClock States
+
+If the system Starts it starts with State 0.
+
+0 Clears the screen -> 10
+10..13 Is the Intro -> 60
+
+50 Prepare System for MPU Position checks, set LEDL on -> 51
+51 Wait for "Wait-Postion" -> 52
+52 Wait for "Read-Position", LEDL blink -> 60
+
+60 Prepares the Clock, activates "clocktime" Timer -> 61
+61 Shows the Watchface, waits for "clocktime" Timer to be over -> 90 
+
+90 Clear Screen, prepares Sleep -> 91
+91 Enable and set System Sleep, wait for WakeUp
+
+100 Prepare Setup -> 101
+101 Setup, Exit with Button -> 105
+105 -> 106 (Save) or 107 (Exit)
+106 Save Setup changes -> 109
+108 Exit Setup -> 108 -> 109
+109 -> 60
+
+110 Prepare Stats -> 111
+111 Show Stats, Exit with Button -> 112
+112 Exit Stats -> 60
+
+
+WakeUp
+MPU Interrupt -> 50
+Button Interrupt -> 60
+RTC Interrupt wakes system inside state 91 and if Alarm is cleared -> 60
