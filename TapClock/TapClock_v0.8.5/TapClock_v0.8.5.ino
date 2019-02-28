@@ -245,12 +245,12 @@
     01:  free            free
     02:  Clocktime       in 1/10sec
     03:  Watchface       unused
-    04:  MPU Mode        0=MPU Off, 1=MPU On
+    04:  MPU Enabled     0=Off, 1=On
     05:  Contrast        0..25 (*10)
-    06:  Alarm On/Off    0=Off, 1=On
+    06:  Alarm Enabled   0=Off, 1=On
     07:  Alarm Hour      0..23
     08:  Alarm Minute    0..59
-    09:  Alarm Day       Date, DayOfWeek or Binary Coded Multi-Days of Week
+    09:  Alarm Day       Date, DayOfWeek or Binary Coded Multi-Day of Week (see ReadMe)
     10:  Alarm Mode      1..6 see below
 
     Runtimes:
@@ -260,9 +260,9 @@
     RTC Alarm Modes:
     1:  ALM1_MATCH_SECONDS  = Match Seconds (Alarm once each Minute)
     2:  ALM1_MATCH_MINUTES  = ..and Minutes (Alarm once each Hours)
-    3:  ALM1_MATCH_HOURS    = ..and Hours (Alarm once each Day)
+    3:  ALM1_MATCH_HOURS    = ..and Hours (Alarm once each Day) (also Default Mode)
     4:  ALM1_MATCH_DATE     = ..plus this Date or (Alarm once each Month)
-    5:  ALM1_MATCH_DAY      = ..plus this DayOfWeek (1-7) (Alarm once each Week)
+    5:  ALM1_MATCH_DAY      = ..or plus this DayOfWeek (1-7) (Alarm once each Week)
     6:  ALM1_MATCH_HOURS    = Mode 3 plus Binary Coded Days of Week so you can choose more than one Day for the weekly Alarms (Mix of Hard- & Software)
     
 */
@@ -652,7 +652,7 @@ void setup()
 //    EEPROM.write(3,1);        // Watchface (unused in this version)
     EEPROM.write(4,0);        // MPU Enabled:1 Disabled:0
     EEPROM.write(5,10);       // Contrast [*10]
-    EEPROM.write(6,1);        // Alarm On/Off
+    EEPROM.write(6,0);        // Alarm On/Off
     EEPROM.write(7,10);       // Alarm Hour
     EEPROM.write(8,0);        // Alarm Minute
     EEPROM.write(9,1);        // Alarm Day
