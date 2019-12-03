@@ -257,9 +257,8 @@ extern char datebuffer[10];                // String/Char buffer for formated pr
 
 -----------------------------------
 Used Libraries
--watchX libs by ArgeX                   see http://watchx.io/downloads_en.html
--MPU6050 Lib from Korneliusz Jarzebski  see https://github.com/jarzebski/Arduino-MPU6050
--BasicWatch 1 from kghunt/DntPMme       see https://github.com/kghunt/Basic_Watch
+-watchX libs by ArgeX                   see http://watchx.io/downloads_en.html. 
+                                        !! You need to remove the MPU6050 Library because of name conflicts !!
 -I2CDEVLIB                              see https://github.com/jrowberg/i2cdevlib 
 -Bounce2                                see https://github.com/thomasfredericks/Bounce2
 -Pin Change Interrupt (PCINT)           see https://github.com/NicoHood/PinChangeInterrupt
